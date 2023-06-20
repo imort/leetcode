@@ -24,8 +24,4 @@ class AddTwoNumbers {
         }
         return root
     }
-
-    class ListNode(var `val`: Int) {
-        var next: ListNode? = null
-    }
 }
