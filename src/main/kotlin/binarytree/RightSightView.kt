@@ -1,5 +1,9 @@
 package binarytree
 
+/**
+ * Given the root of a binary tree, imagine yourself standing on the right side of it,
+ * return the values of the nodes you can see ordered from top to bottom.
+ */
 class RightSightView {
     fun rightSideView(root: TreeNode?): List<Int> {
         if (root == null) return emptyList()
@@ -22,10 +26,5 @@ class RightSightView {
             }
         }
         return result
-    }
-
-    class TreeNode(var `val`: Int) {
-        var left: TreeNode? = null
-        var right: TreeNode? = null
     }
 }
