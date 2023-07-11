@@ -2,6 +2,9 @@ package dynamic
 
 import kotlin.math.max
 
+/**
+ * Given an integer array nums, return the length of the longest strictly increasing subsequence
+ */
 class LongestIncreasingSubsequence {
     fun lengthOfLIS(nums: IntArray): Int {
         val lengths = IntArray(nums.size)

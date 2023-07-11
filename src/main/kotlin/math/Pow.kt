@@ -2,6 +2,9 @@ package math
 
 import kotlin.math.abs
 
+/**
+ * Implement pow(x, n), which calculates x raised to the power n
+ */
 class Pow {
     fun myPow(x: Double, n: Int): Double {
         return when {
